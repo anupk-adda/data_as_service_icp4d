@@ -1,8 +1,11 @@
 # data_as_service_icp4d
 sample implementation of data as a service on IBM Cloud Private for Data Platform
+
 Step 1. 
 +++++++++++++++
 import the project to any IBM cloud pak for data  instance ver 1.1 /watson studio  2.0 onwards.
+
+
 Step 2.
 +++++++++++++++++++
 modify the daassetup.py  dbConnection() function to point to your database or data virtualization isntance.
@@ -15,7 +18,8 @@ def dbConnection():
   dsn_pwd = "_Qlx0fH6_R"
   
  
- Step 3.
+
+Step 3.
  +++++++++++++++++++++
  add function and define the input and output variables.
  
